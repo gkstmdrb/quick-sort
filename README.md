@@ -9,6 +9,10 @@ quick sort
 
 ### Java 코드
 
+package project;
+
+import java.util.Arrays;
+
 public class quick {
     public static void quickSort(int[] arr, int left, int right) {
         if (left < right) {
@@ -45,4 +49,4 @@ public class quick {
         quickSort(arr, 0, arr.length - 1);
         System.out.println("Sorted array: " + Arrays.toString(arr));
     }
-}
+
